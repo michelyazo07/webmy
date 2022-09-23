@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 100%;
+}
+.menu {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    color: black;
+}
+.redes{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+
+.cajacontenido {
+    background-image: url(../images/fondo-logo.png);
+}
+.cajaeslogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eslogan {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.fotomiche {
+    width: 100%;
+}
+
+
+.filosofia {
+    background-color: #A2629D;
+    
+}
+.iconosfilo {
+    width: 100%;
+    padding: 15px 55px 0px 55px;
+}
+.filosofias {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.descripcionfilo {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+  
