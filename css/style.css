@@ -8,6 +8,13 @@ body {
 .logo {
     width: 100%;
 }
+.posicion{
+    position:fixed;
+    background-color: #E8F2F7;
+}
+.colormenu {
+    height: 95vh;
+}
 .menu {
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
@@ -37,6 +44,7 @@ body {
     font-size: 3.5rem;
     font-weight: bold;
     padding-left: 25px;
+    text-align: center;
 }
 .fotomiche {
     width: 100%;
@@ -64,7 +72,47 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    text-align: center;
-    
+    text-align: center;   
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 20px) and (max-width:768px){
+    .iconofilocal {
+        width: 250px;
+    }
 }
   
+
+.quehacemos {
+    background-color: white;
+}
+.tituloservicios {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+.servicios {
+    width: 100%;
+}
+
+
+.footer {
+    background-color: #6062AA;
+}
+.iconosfooter {
+    width: 15px;
+}
+@media screen and (min-width: 20px) and (max-width:768px){
+    .colormenu {
+        height: 50px;
+        background-color: transparent;
+    }
+}
