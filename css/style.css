@@ -6,10 +6,18 @@ body {
     padding: 0;
 }
 
+/* INICIO DEL CSS HOME*/
+/* INICIO DEL CSS HOME*/
+/* INICIO DEL CSS HOME*/
+/* INICIO DEL CSS HOME*/
+/* INICIO DEL CSS HOME*/
+
+
+
 /* CSS COL-3 MENU*/
 .logo {
     width: 100%;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 .posicion{
     position:fixed;
@@ -17,7 +25,17 @@ body {
 }
 @media screen and (min-width: 20px) and (max-width:768px){
     .posicion {
-        position: relative;
+        position:inherit;
+        height: 45px;
+    }
+    .navbar-collapse {
+        background-color: #E8F2F7;
+        padding: 45px;
+        display: flex;
+        justify-content: center;
+    }
+    .cc {
+        padding-top: 0px;
     }
 }
 .colormenu {
@@ -56,9 +74,12 @@ body {
     font-size: 12px;
     text-align: center;
 }
+.cc {
+    padding-top: 45px;
+}
 
 
-
+/* CSS COL-9 HEADER*/
 
 .cajacontenido {
     background-image: url(../images/fondo-logo.png);
@@ -79,10 +100,13 @@ body {
     width: 100%;
 }
 
+/* CSS COL-9 FILOSOFIAS*/
 
 .filosofia {
-    background-color: #A2629D;
-    
+    background-color: #A2629D;  
+}
+.filosofia2 {
+    padding-bottom: 45px;
 }
 .iconosfilo {
     width: 100%;
@@ -112,7 +136,8 @@ body {
         width: 320px;
     }
 }
-  
+
+/* CSS COL-9 SERVICIOS*/
 
 .quehacemos {
     background-color: white;
@@ -133,9 +158,10 @@ body {
 }
 
 
+/* CSS COL-9 FOOTER*/
+
 .footer {
     background-color: #6062AA;
-    padding: 45px;
 }
 .iconosfooter {
     width: 10%;
@@ -147,13 +173,15 @@ body {
 }
 .lista {
     list-style: none;
+    padding: 45px;
 }
 .contacto {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2.8rem;
     font-weight: bold;
     color: white;
-
+    padding-top: 45px;
+    padding-left: 45px;
 }
 .telefono {
     display: flex;
@@ -165,5 +193,41 @@ body {
 .datacontacto {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
+.botonfooter {
+    background-color: #8BBCD9;
+    height: 45px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.alineacion {
+    display: flex;
+    justify-content: end;
+}
+.colorform {
+    border: 1px white solid;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    background: none;
+}
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+} 
+
+
+/* FIN DEL CSS HOME*/
+/* FIN DEL CSS HOME*/
+/* FIN DEL CSS HOME*/
+/* FIN DEL CSS HOME*/
+/* FIN DEL CSS HOME*/
+/* FIN DEL CSS HOME*/
+/* FIN DEL CSS HOME*/
+/* FIN DEL CSS HOME*/
