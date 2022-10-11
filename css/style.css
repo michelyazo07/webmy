@@ -1,5 +1,7 @@
-* {
+*,*:after, *:before {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     margin: 0;
@@ -22,6 +24,7 @@ body {
 }
 .posicion{
     position:fixed;
+    z-index: 1 !important;
     background-color: #E8F2F7;
 }
 
@@ -261,3 +264,55 @@ body {
 /* FIN DEL CSS HOME*/
 /* FIN DEL CSS HOME*/
 /* FIN DEL CSS HOME*/
+
+
+.centrar1 {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 6850ms !important;
+    background-image: url(../images/imagesL/fondo.png);
+    z-index: 2 !important;
+}
+
+.caja {
+    width: 350px;
+    height: 170px;
+    position: absolute;
+}
+
+.puntero {
+    position: absolute;
+    width: 350px;
+    z-index: 1;
+    animation-duration: 1s !important;
+}
+
+.my {
+    position: absolute;
+    width: 350px;
+    z-index: 2;
+    animation-duration: 1s !important;
+}
+
+.mouse {
+    position: absolute;
+    width: 350px;
+    z-index: 3;
+    animation-duration: 1s !important;
+}
+
+.michelyazo {
+    position: absolute;
+    width: 350px;
+    z-index: 4;
+}
+
+.mediaproducer {
+    position: absolute;
+    width: 350px;
+    z-index: 5;
+}
