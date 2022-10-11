@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 
+
 /* INICIO DEL CSS HOME*/
 /* INICIO DEL CSS HOME*/
 /* INICIO DEL CSS HOME*/
@@ -23,21 +24,7 @@ body {
     position:fixed;
     background-color: #E8F2F7;
 }
-@media screen and (min-width: 20px) and (max-width:768px){
-    .posicion {
-        position:inherit;
-        height: 45px;
-    }
-    .navbar-collapse {
-        background-color: #E8F2F7;
-        padding: 45px;
-        display: flex;
-        justify-content: center;
-    }
-    .cc {
-        padding-top: 0px;
-    }
-}
+
 .colormenu {
     height: 100vh;
     background-color: #E8F2F7
@@ -77,6 +64,25 @@ body {
 .cc {
     padding-top: 45px;
 }
+@media screen and (min-width: 20px) and (max-width:768px){
+    .posicion {
+        position:inherit;
+        height: 45px;
+    }
+    .navbar-collapse {
+        background-color: #E8F2F7;
+        padding: 45px;
+        display: flex;
+        justify-content: center;
+    }
+    .cc {
+        padding-top: 0px;
+    }
+    .redes {
+        width: 20%;
+        padding-right: 10px;
+    }
+}
 
 
 /* CSS COL-9 HEADER*/
@@ -99,6 +105,9 @@ body {
 .fotomiche {
     width: 100%;
 }
+
+
+
 
 /* CSS COL-9 FILOSOFIAS*/
 
@@ -133,7 +142,10 @@ body {
 }
 @media screen and (min-width: 20px) and (max-width:768px){
     .iconofilocal {
-        width: 320px;
+        width: 220px;
+    }
+    .filosofias {
+        font-size: 1.6rem;
     }
 }
 
@@ -158,22 +170,21 @@ body {
 }
 
 
+
 /* CSS COL-9 FOOTER*/
 
 .footer {
     background-color: #6062AA;
+    padding: 25px;
 }
 .iconosfooter {
-    width: 10%;
+    width: 8%;
 }
-@media screen and (min-width: 20px) and (max-width:768px){
-    .colormenu {
-        height: 50px;
-    }
-}
+
 .lista {
     list-style: none;
-    padding: 45px;
+    padding-top: 15px;
+   
 }
 .contacto {
     font-family: 'Courier New', Courier, monospace;
@@ -188,7 +199,7 @@ body {
     align-items: center;
 }
 .correo {
-    width: 65px;
+    width: 8%;
 }
 .datacontacto {
     font-family: 'Montserrat', sans-serif;
@@ -208,6 +219,7 @@ body {
     display: flex;
     justify-content: end;
 }
+
 .colorform {
     border: 1px white solid;
     width: 100%;
@@ -221,6 +233,24 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: white;
 } 
+.formulario {
+    padding: 25px;
+}
+@media screen and (min-width: 20px) and (max-width:768px){
+    .colormenu {
+        height: 50px;
+    }
+    .formulario {
+        padding: 0px;
+    }
+    .footer {
+        padding: 0px;
+        padding-bottom: 15px;
+    }
+    .datacontacto {
+        font-size: 1rem;
+    }
+}
 
 
 /* FIN DEL CSS HOME*/
