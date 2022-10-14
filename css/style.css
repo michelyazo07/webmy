@@ -7,6 +7,63 @@ body {
     margin: 0;
     padding: 0;
 }
+/*CODIGO INTRO LOGO*/
+/*CODIGO INTRO LOGO*/
+/*CODIGO INTRO LOGO*/
+/*CODIGO INTRO LOGO*/
+/*CODIGO INTRO LOGO*/
+
+.centrar1 {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 6850ms !important;
+    background-image: url(../images/imagesL/fondo.png);
+    z-index: 2 !important;
+}
+
+.caja {
+    width: 350px;
+    height: 170px;
+    position: absolute;
+}
+
+.puntero {
+    position: absolute;
+    width: 350px;
+    z-index: 1;
+    animation-duration: 1s !important;
+}
+
+.my {
+    position: absolute;
+    width: 350px;
+    z-index: 2;
+    animation-duration: 1s !important;
+}
+
+.mouse {
+    position: absolute;
+    width: 350px;
+    z-index: 3;
+    animation-duration: 1s !important;
+}
+
+.michelyazo {
+    position: absolute;
+    width: 350px;
+    z-index: 4;
+}
+
+.mediaproducer {
+    position: absolute;
+    width: 350px;
+    z-index: 5;
+}
+
 
 
 /* INICIO DEL CSS HOME*/
@@ -123,6 +180,15 @@ body {
 .iconosfilo {
     width: 100%;
     padding: 15px 55px 0px 55px;
+}
+.titulofilo {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 25px
 }
 .filosofias {
     font-family: 'Courier New', Courier, monospace;
@@ -266,53 +332,59 @@ body {
 /* FIN DEL CSS HOME*/
 
 
-.centrar1 {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
+/*CSS PORTAFOLIO*/
+/*CSS PORTAFOLIO*/
+/*CSS PORTAFOLIO*/
+/*CSS PORTAFOLIO*/
+/*CSS PORTAFOLIO*/
+/*CSS PORTAFOLIO*/
+/*CSS PORTAFOLIO*/
+
+
+
+/*MENU TABS PORTAFOLIO*/
+
+.menuportafolio {
+    padding-bottom: 45px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    transition: all 6850ms !important;
-    background-image: url(../images/imagesL/fondo.png);
-    z-index: 2 !important;
+}
+.portafolioser {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+
+    background-color: #F9CDCF;
+    padding: 25px;
+    height: 100%;
+    border-right: #999999 solid;
+}
+.portafolioser:hover {
+    background-color: #F8C1C3;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+}
+.borde {
+    border-radius: 0px 0px 0px 10px;
+}
+.borde1 {
+    border-radius: 0px 0px 10px 0px;
 }
 
-.caja {
-    width: 350px;
-    height: 170px;
-    position: absolute;
-}
 
-.puntero {
-    position: absolute;
-    width: 350px;
-    z-index: 1;
-    animation-duration: 1s !important;
-}
 
-.my {
-    position: absolute;
-    width: 350px;
-    z-index: 2;
-    animation-duration: 1s !important;
+.boton {
+    width: 300px;
+    margin: 25px;
+    display: flex;
+    justify-content: end;
 }
-
-.mouse {
-    position: absolute;
-    width: 350px;
-    z-index: 3;
-    animation-duration: 1s !important;
+.borde2{
+    border: #6062AA solid;
 }
-
-.michelyazo {
-    position: absolute;
-    width: 350px;
-    z-index: 4;
-}
-
-.mediaproducer {
-    position: absolute;
-    width: 350px;
-    z-index: 5;
+.imagen2 {
+    width: 450px;
 }
