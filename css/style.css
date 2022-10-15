@@ -1,12 +1,16 @@
-*,*:after, *:before {
+*,
+*:after,
+*:before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
     margin: 0;
     padding: 0;
 }
+
 /*CODIGO INTRO LOGO*/
 /*CODIGO INTRO LOGO*/
 /*CODIGO INTRO LOGO*/
@@ -79,8 +83,9 @@ body {
     width: 100%;
     padding-top: 25px;
 }
-.posicion{
-    position:fixed;
+
+.posicion {
+    position: fixed;
     z-index: 1 !important;
     background-color: #E8F2F7;
 }
@@ -99,21 +104,25 @@ body {
     font-weight: bold;
     color: black;
 }
-.redes{
+
+.redes {
     text-decoration: none;
     width: 20%;
     padding-right: 35px;
     padding-top: 35px;
 }
+
 .lincencia {
     width: 25%;
     padding-top: 45px;
-    
+
 }
+
 .licenciacen {
     display: flex;
     justify-content: center;
 }
+
 .politicas {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -121,23 +130,28 @@ body {
     font-size: 12px;
     text-align: center;
 }
+
 .cc {
     padding-top: 45px;
 }
-@media screen and (min-width: 20px) and (max-width:768px){
+
+@media screen and (min-width: 20px) and (max-width:768px) {
     .posicion {
-        position:inherit;
+        position: inherit;
         height: 45px;
     }
+
     .navbar-collapse {
         background-color: #E8F2F7;
         padding: 45px;
         display: flex;
         justify-content: center;
     }
+
     .cc {
         padding-top: 0px;
     }
+
     .redes {
         width: 20%;
         padding-right: 10px;
@@ -150,11 +164,13 @@ body {
 .cajacontenido {
     background-image: url(../images/fondo-logo.png);
 }
+
 .cajaeslogan {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .eslogan {
     font-family: 'Courier New', Courier, monospace;
     font-size: 3.5rem;
@@ -162,6 +178,7 @@ body {
     padding-left: 25px;
     text-align: center;
 }
+
 .fotomiche {
     width: 100%;
 }
@@ -172,15 +189,18 @@ body {
 /* CSS COL-9 FILOSOFIAS*/
 
 .filosofia {
-    background-color: #A2629D;  
+    background-color: #A2629D;
 }
+
 .filosofia2 {
     padding-bottom: 45px;
 }
+
 .iconosfilo {
     width: 100%;
     padding: 15px 55px 0px 55px;
 }
+
 .titulofilo {
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -190,6 +210,7 @@ body {
     font-size: 3rem;
     padding: 25px
 }
+
 .filosofias {
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -198,21 +219,25 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .descripcionfilo {
     font-family: 'Montserrat', sans-serif;
     color: white;
     display: flex;
     justify-content: center;
-    text-align: center;   
+    text-align: center;
 }
+
 .centrar {
     display: flex;
     justify-content: center;
 }
-@media screen and (min-width: 20px) and (max-width:768px){
+
+@media screen and (min-width: 20px) and (max-width:768px) {
     .iconofilocal {
         width: 220px;
     }
+
     .filosofias {
         font-size: 1.6rem;
     }
@@ -224,6 +249,7 @@ body {
     background-color: white;
     padding: 45px;
 }
+
 .tituloservicios {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2.8rem;
@@ -234,6 +260,7 @@ body {
     padding-bottom: 45px;
 
 }
+
 .servicios {
     width: 100%;
 }
@@ -246,6 +273,7 @@ body {
     background-color: #6062AA;
     padding: 25px;
 }
+
 .iconosfooter {
     width: 8%;
 }
@@ -253,8 +281,9 @@ body {
 .lista {
     list-style: none;
     padding-top: 15px;
-   
+
 }
+
 .contacto {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2.8rem;
@@ -263,18 +292,22 @@ body {
     padding-top: 45px;
     padding-left: 45px;
 }
+
 .telefono {
     display: flex;
     align-items: center;
 }
+
 .correo {
     width: 8%;
 }
+
 .datacontacto {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 1.3rem;
 }
+
 .botonfooter {
     background-color: #8BBCD9;
     height: 45px;
@@ -284,6 +317,7 @@ body {
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+
 .alineacion {
     display: flex;
     justify-content: end;
@@ -298,24 +332,30 @@ body {
     padding: 5px;
     background: none;
 }
+
 ::placeholder {
     font-family: 'Montserrat', sans-serif;
     color: white;
-} 
+}
+
 .formulario {
     padding: 25px;
 }
-@media screen and (min-width: 20px) and (max-width:768px){
+
+@media screen and (min-width: 20px) and (max-width:768px) {
     .colormenu {
         height: 50px;
     }
+
     .formulario {
         padding: 0px;
     }
+
     .footer {
         padding: 0px;
         padding-bottom: 15px;
     }
+
     .datacontacto {
         font-size: 1rem;
     }
@@ -349,6 +389,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .portafolioser {
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
@@ -360,6 +401,7 @@ body {
     height: 100%;
     border-right: #999999 solid;
 }
+
 .portafolioser:hover {
     background-color: #F8C1C3;
     text-decoration: none;
@@ -367,24 +409,38 @@ body {
     color: black;
     font-weight: bold;
 }
+
 .borde {
     border-radius: 0px 0px 0px 10px;
 }
+
 .borde1 {
     border-radius: 0px 0px 10px 0px;
 }
 
 
 
-.boton {
-    width: 300px;
-    margin: 25px;
+/*CODIGO DEL ROW DEL PORTAFOLIO*/
+
+.nueva {
     display: flex;
-    justify-content: end;
+    overflow: hidden;
+
 }
-.borde2{
-    border: #6062AA solid;
+
+.caja {
+    height: 550px;
 }
-.imagen2 {
-    width: 450px;
+
+.imgPreview {
+    height: 150px;
+}
+
+.imgMarketing {
+    height: 450px;
+}
+
+.tamano {
+    border: 2px yellow solid;
+
 }
