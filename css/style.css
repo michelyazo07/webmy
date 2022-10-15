@@ -24,12 +24,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 6850ms !important;
-    background-image: url(../images/imagesL/fondo.png);
+    transition: all 6600ms !important;
+    background-image: url(../images/introLogo/fondo-logo.png);
     z-index: 2 !important;
 }
 
-.caja {
+.cajaIntro {
     width: 350px;
     height: 170px;
     position: absolute;
@@ -265,6 +265,10 @@ body {
     width: 100%;
 }
 
+/* CSS COL-9 SERVICIOS*/
+/* CSS COL-9 SERVICIOS*/
+/* CSS COL-9 SERVICIOS*/
+
 
 
 /* CSS COL-9 FOOTER*/
@@ -418,6 +422,27 @@ body {
     border-radius: 0px 0px 10px 0px;
 }
 
+@media screen and (min-width: 20px) and (max-width:768px) {
+    .menuportafolio {
+        padding-bottom: 25px;
+
+    }
+
+    .portafolioser {
+        font-size: 1.2rem;
+        padding: 8px 15px 8px 15px;
+        border-radius: 10px;
+        border: #999999 solid;
+        display: flex;
+        justify-content: center;
+    }
+
+    .margenbotonporta {
+        margin: 5px;
+    }
+
+}
+
 
 
 /*CODIGO DEL ROW DEL PORTAFOLIO*/
@@ -425,22 +450,40 @@ body {
 .nueva {
     display: flex;
     overflow: hidden;
+    height: 670px;
 
 }
 
-.caja {
-    height: 550px;
+.cajaporta {
+    height: 670px;
 }
 
 .imgPreview {
     height: 150px;
 }
 
-.imgMarketing {
-    height: 450px;
+.papaImgMark {
+    display: flex;
+    justify-content: center;
+    height: 45%;
 }
 
-.tamano {
-    border: 2px yellow solid;
+.prueba {
+    background-color: aqua;
+    height: 350px;
+}
 
+@media screen and (min-width: 20px) and (max-width:768px) {
+    .papaImgMark {
+        height: 35%;
+    }
+
+    .imgPreview {
+        height: 250px;
+    }
+
+    .cajaporta {
+        height: 300px;
+        margin-bottom: 35px;
+    }
 }
