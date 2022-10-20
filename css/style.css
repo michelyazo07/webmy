@@ -98,7 +98,7 @@ body {
 .menu {
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: start;
     font-weight: bold;
@@ -363,6 +363,10 @@ body {
     .datacontacto {
         font-size: 1rem;
     }
+
+    .lista {
+        padding: 0px;
+    }
 }
 
 
@@ -383,7 +387,6 @@ body {
 /*CSS PORTAFOLIO*/
 /*CSS PORTAFOLIO*/
 /*CSS PORTAFOLIO*/
-
 
 
 /*MENU TABS PORTAFOLIO*/
@@ -422,6 +425,8 @@ body {
     border-radius: 0px 0px 10px 0px;
 }
 
+
+
 @media screen and (min-width: 20px) and (max-width:768px) {
     .menuportafolio {
         padding-bottom: 25px;
@@ -445,7 +450,7 @@ body {
 
 
 
-/*CODIGO DEL ROW DEL PORTAFOLIO*/
+/*CODIGO DEL ROW DEL PORTAFOLIO MARKETING DIGITAL*/
 
 .nueva {
     display: flex;
@@ -460,6 +465,7 @@ body {
 
 .imgPreview {
     height: 150px;
+    margin: 5px;
 }
 
 .papaImgMark {
@@ -468,14 +474,10 @@ body {
     height: 45%;
 }
 
-.prueba {
-    background-color: aqua;
-    height: 350px;
-}
 
 @media screen and (min-width: 20px) and (max-width:768px) {
     .papaImgMark {
-        height: 35%;
+        height: 30%;
     }
 
     .imgPreview {
@@ -486,4 +488,290 @@ body {
         height: 300px;
         margin-bottom: 35px;
     }
+}
+
+/*CODIGO DEL ROW DEL PORTAFOLIO COMUNICACION VISUAL*/
+
+.nueva2 {
+    display: flex;
+    overflow: hidden;
+    height: 420px;
+    display: flex;
+    align-items: center;
+}
+
+.cajaporta2 {
+    height: 570px;
+}
+
+.imgPreviewCOM {
+    height: 150px;
+    margin: 5px;
+}
+
+.papaImgCOM {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+}
+
+
+@media screen and (min-width: 20px) and (max-width:768px) {
+    .papaImgCOM {
+        height: 35%;
+    }
+
+    .imgPreviewCOM {
+        height: 150px;
+    }
+
+    .cajaporta2 {
+        height: 250px;
+        margin-bottom: 35px;
+    }
+}
+
+/*CODIGO DEL ROW DEL PORTAFOLIO PRODUCCION MULTIMEDIA*/
+
+.nueva3 {
+    display: flex;
+    overflow: hidden;
+    height: 670px;
+
+}
+
+.cajaporta3 {
+    height: 670px;
+}
+
+.imgPreviewMUL {
+    height: 150px;
+    margin: 5px;
+}
+
+.papaImgMUL {
+    display: flex;
+    justify-content: center;
+    height: 45%;
+}
+
+
+@media screen and (min-width: 20px) and (max-width:768px) {
+    .papaImgMUL {
+        height: 28%;
+    }
+
+    .imgPreview {
+        height: 250px;
+    }
+
+    .cajaporta3 {
+        height: 300px;
+        margin-bottom: 35px;
+    }
+}
+
+/*FIN CSS PORTAFOLIO*/
+/*FIN CSS PORTAFOLIO*/
+/*FIN CSS PORTAFOLIO*/
+/*FIN CSS PORTAFOLIO*/
+/*FIN CSS PORTAFOLIO*/
+/*FIN CSS PORTAFOLIO*/
+/*FIN CSS PORTAFOLIO*/
+
+/*PRIMER ROW BIOGRAFIA*/
+.cajaquiensoy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 25px;
+}
+
+.quiensoy {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.quiensoyparrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+}
+
+
+/*ROW HOBBIES HABILIDADES*/
+.cajahobbies {
+    background-color: #6062AA;
+    padding: 35px
+}
+
+.cajahabilidades {
+    background-color: #A2629D;
+}
+
+.titulohobbies {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.parrafohobbies {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.listahab {
+    display: flex;
+    align-items: center;
+}
+
+/*ROW HABILIDADES TECNICAS*/
+
+.cajatecnica {
+    background-color: white;
+}
+
+.espaciohab {
+    padding-left: 15px;
+}
+
+.titulotecnicas {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.Htecnicas {
+    width: 10%;
+}
+
+.listatec {
+    display: flex;
+    align-items: center;
+}
+
+.espaciotec {
+    padding-left: 15px;
+}
+
+.textotec {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+/*ROW ACORDEON*/
+.caja-acordeon {
+    padding: 55px;
+}
+
+.tituloacordeon {
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 1.7rem !important;
+    font-weight: bold !important;
+    padding-top: 25px !important;
+    background-color: #8BBCD9 !important;
+}
+
+.tituloacordeon:hover {
+    color: white !important;
+}
+
+.parrafoacordeon {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: left;
+    padding: 15px;
+}
+
+.papaimgseparacion {
+    display: flex;
+    justify-content: center;
+}
+
+.imgseparacion {
+    width: 75%;
+}
+
+/*FIN CSS BIOGRAFIA*/
+/*FIN CSS BIOGRAFIA*/
+/*FIN CSS BIOGRAFIA*/
+/*FIN CSS BIOGRAFIA*/
+/*FIN CSS BIOGRAFIA*/
+/*FIN CSS BIOGRAFIA*/
+/*FIN CSS BIOGRAFIA*/
+
+
+
+.titulocontacto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cajaCON {
+    padding: 80px;
+}
+
+.colorformcon {
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    background: none;
+}
+
+.alineacionCon {
+    display: flex;
+    justify-content: end;
+}
+
+
+.colorformcon::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.formulario {
+    padding: 25px;
+}
+
+.Conparrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
 }
