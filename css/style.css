@@ -506,10 +506,9 @@ body {
 }
 .parrafoMark {
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     text-align: left;
 }
-
 
 @media screen and (min-width: 20px) and (max-width:768px) {
     .papaImgMark {
@@ -534,7 +533,7 @@ body {
 .nueva2 {
     display: flex;
     overflow: hidden;
-    height: 450px;
+    height: 467px;
 }
 
 .cajaporta2 {
@@ -562,7 +561,7 @@ body {
 }
 .parrafoCom {
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     text-align: left;
 }
 
@@ -621,7 +620,7 @@ body {
 }
 .parrafoMul{
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     text-align: left;
 }
 
@@ -677,6 +676,11 @@ body {
     justify-content: center;
     text-align: left;
 
+}
+.videomiche {
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 @media screen and (min-width: 20px) and (max-width:768px) {
    .quiensoy {
