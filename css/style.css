@@ -183,6 +183,19 @@ body {
     width: 100%;
 }
 
+@media screen and (min-width: 20px) and (max-width:768px) {
+    .eslogan {
+        font-size: 2.2rem;
+    }
+    .cajaheader {
+        padding-top: 45px;
+    }
+    .fotomiche {
+        width: 120%;
+    }
+
+}
+
 
 
 
@@ -239,7 +252,15 @@ body {
     }
 
     .filosofias {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+    }
+    .titulofilo {
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+    .descripcionfilo {
+        display: flex;
+        text-align: center;
     }
 }
 
@@ -361,7 +382,7 @@ body {
     }
 
     .datacontacto {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .lista {
@@ -402,9 +423,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
-
     background-color: #F9CDCF;
-    padding: 25px;
+    padding: 20px;
     height: 100%;
     border-right: #999999 solid;
 }
@@ -448,6 +468,10 @@ body {
 
 }
 
+.cajaCom {
+    padding: 65px;
+}
+
 
 
 /*CODIGO DEL ROW DEL PORTAFOLIO MARKETING DIGITAL*/
@@ -473,6 +497,18 @@ body {
     justify-content: center;
     height: 45%;
 }
+.tituloMark {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.parrafoMark {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    text-align: left;
+}
 
 
 @media screen and (min-width: 20px) and (max-width:768px) {
@@ -488,6 +524,9 @@ body {
         height: 300px;
         margin-bottom: 35px;
     }
+    .nueva{
+        height: 600px;
+    }
 }
 
 /*CODIGO DEL ROW DEL PORTAFOLIO COMUNICACION VISUAL*/
@@ -495,9 +534,7 @@ body {
 .nueva2 {
     display: flex;
     overflow: hidden;
-    height: 420px;
-    display: flex;
-    align-items: center;
+    height: 450px;
 }
 
 .cajaporta2 {
@@ -507,18 +544,33 @@ body {
 .imgPreviewCOM {
     height: 150px;
     margin: 5px;
+   
 }
 
 .papaImgCOM {
     display: flex;
     justify-content: center;
     height: 75%;
+    padding-top: 20px;
+}
+.tituloCom{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.parrafoCom {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    text-align: left;
 }
 
 
 @media screen and (min-width: 20px) and (max-width:768px) {
     .papaImgCOM {
         height: 35%;
+        padding: 0px;
     }
 
     .imgPreviewCOM {
@@ -528,6 +580,12 @@ body {
     .cajaporta2 {
         height: 250px;
         margin-bottom: 35px;
+    }
+    .nueva2 {
+        height: 340px;
+    }
+    .cajaCom {
+        padding: 0px;
     }
 }
 
@@ -554,7 +612,18 @@ body {
     justify-content: center;
     height: 45%;
 }
-
+.tituloMul{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.parrafoMul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    text-align: left;
+}
 
 @media screen and (min-width: 20px) and (max-width:768px) {
     .papaImgMUL {
@@ -568,6 +637,9 @@ body {
     .cajaporta3 {
         height: 300px;
         margin-bottom: 35px;
+    }
+    .nueva3 {
+        height: 500px;
     }
 }
 
@@ -606,6 +678,14 @@ body {
     text-align: left;
 
 }
+@media screen and (min-width: 20px) and (max-width:768px) {
+   .quiensoy {
+       font-size: 2.3rem;
+   }
+   .quiensoyparrafo {
+       font-size: 1rem;
+   }
+}
 
 
 /*ROW HOBBIES HABILIDADES*/
@@ -616,6 +696,7 @@ body {
 
 .cajahabilidades {
     background-color: #A2629D;
+    padding: 10px;
 }
 
 .titulohobbies {
@@ -635,12 +716,27 @@ body {
     display: flex;
     justify-content: center;
     text-align: left;
+    padding: 0px;
+    
 }
-
-.listahab {
+.parrafohobbies li {
+    list-style: circle;
     display: flex;
-    align-items: center;
 }
+@media screen and (min-width: 20px) and (max-width:768px) {
+    .cajahobbies {
+        padding-top: 30px;
+    }
+    .titulohobbies {
+        font-size: 1.8rem;
+    }
+    .parrafohobbies {
+        font-size: 1rem;
+
+    }
+ }
+
+
 
 /*ROW HABILIDADES TECNICAS*/
 
@@ -650,6 +746,7 @@ body {
 
 .espaciohab {
     padding-left: 15px;
+    
 }
 
 .titulotecnicas {
@@ -681,6 +778,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     text-align: left;
+}
+
+@media screen and (min-width: 20px) and (max-width:768px) {
+    .Htecnicas {
+        width: 15%;
+    }
 }
 
 /*ROW ACORDEON*/
@@ -717,6 +820,18 @@ body {
     width: 75%;
 }
 
+@media screen and (min-width: 20px) and (max-width:768px) {
+    .caja-acordeon {
+        padding: 20px;
+    }
+    .tituloacordeon {
+        font-size: 1.2rem !important;
+    }
+    .parrafoacordeon {
+        font-size: 0.9rem;
+    }
+}
+
 /*FIN CSS BIOGRAFIA*/
 /*FIN CSS BIOGRAFIA*/
 /*FIN CSS BIOGRAFIA*/
@@ -731,14 +846,15 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 3.5rem;
     font-weight: bold;
-    padding-top: 25px;
+    padding-top: 85px;
     text-align: center;
     display: flex;
     justify-content: center;
+    
 }
 
 .cajaCON {
-    padding: 80px;
+    padding: 150px;
 }
 
 .colorformcon {
@@ -770,8 +886,24 @@ body {
 
 .Conparrafo {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    text-align: left;
+    font-size: 1.6rem;
+    
 }
+.Contacparrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 20px) and (max-width:768px) {
+   .titulocontacto {
+       font-size: 3rem;
+   }
+   .cajaCON {
+       padding: 0px;
+   }
+   .Conparrafo {
+       font-size: 1.4rem;
+       padding: 15px;
+   }
+ }
